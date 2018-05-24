@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  text-align: center;
+  font-family: Philosopher, sans-serif;
+  background-color: #bce0c0;
+  color: #11421d;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#resetContainer {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#resetPomodoros {
+  width: 150px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #487a67;
+  border-radius: 6%;
+}
+#resetPomodoros:hover {
+  background-color: #add1b1;
+}
+
+#pomodoros {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pomodoros img {
+  margin: 0px 5px 0px 5px;
+}
+
+#countdown {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  color: #0c7017;
+  background-image: url("https://res.cloudinary.com/percipience/image/upload/v1519176276/Pomodoro_zwachn.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+#controls {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+#startPause, #stop {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 6px;
+  border: 2px solid #487a67;
+  border-radius: 10%;
+}
+#startPause:hover, #stop:hover {
+  background-color: #add1b1;
+}
+
+#durationContainer {
+  height: 135px;
+  display: flex; 
+  justify-content: center;
+  font-size: 32px;
+}
+
+#timerDuration, #breakDuration {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px 25px;
+}
+
+.minuteControls {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #487a67;
+  border-radius: 5%;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 0px 8px;
+}
+.button:hover {
+  background-color: #add1b1;
+}
+.timerSub, .breakSub {
+  border-right: 2px solid #487a67;
+}
+.timerAdd, .breakAdd {
+  border-left: 2px solid #487a67;
+}
+
+#setTimer, #setBreak {
+  font-weight: bold;
+  display: flex;
+  margin: auto;
+  padding: 10px;
+}
+#setTimer {
+  color: #0c7017;
+}
+#setBreak {
+  color: #961f2f;
+}
+
+.timerLabel {
+  font-size: 16px;
+  display: flex;
+}
+
+#footer {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer a:visited {
+  color: #11421d;
+}
+
